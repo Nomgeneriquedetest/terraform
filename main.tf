@@ -14,7 +14,7 @@ provider "azurerm" {
     features {}
 }
 
-resource "azurerm_ressource_group" "IPI_Formation_Terraform" {
-  name         = "IPI_Formation_Terraform"
+resource "azurerm_ressource_group" "Test_gael" {
+  name     = "Test_gael"
   location = "westeurope"
 }
