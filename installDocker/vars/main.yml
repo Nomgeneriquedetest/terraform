@@ -1,0 +1,7 @@
+---
+# vars file for installDocker
+
+create_containers: 1
+default_container_name: docker
+default_container_image: ngnix
+default_container_command: sleep 1d
